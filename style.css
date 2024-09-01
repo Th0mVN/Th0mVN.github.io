@@ -30,7 +30,7 @@ body {
     color:#00aeff;
   }
 
-  p {
+  .p {
     font-family: "Copperplate", Times, sans-serif; /*lettertype, lettertype voor als de eerste niet werkt en lettertype voor als de eerste twee beide falen*/
   }
   
