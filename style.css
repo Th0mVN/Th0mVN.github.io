@@ -21,6 +21,7 @@ body {
     background-color:black; /*achtergrond*/
 }
 
-p {  /* verandert de tekst kleur */
-  color: white;
-}
+body {
+    color: white;
+  }
+  
