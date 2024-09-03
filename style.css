@@ -3,34 +3,34 @@ button  {
     padding: 15px; /* hoe groot de knop is px staat voor pixel */
     background-color: #1f2833; /* kleur van alle knoppen */
     border-radius: 10px; /* rand van de knop */
-    cursor: pointer;
+    cursor: pointer; /*als de cursor op de knop zit*/
     transition: transform 0.2s ease-in-out; /* maakt de knop groter, het duurt 0,2 seconde */
-    font: size 24px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    text-align: center;
+    font: size 24px; /*tekst grootte*/
+    letter-spacing: 2px; /*plek tussen letters*/
+    text-transform: uppercase; /*tekst type, hoofdletters*/
+    text-align: center; /*plek tekst*/
     font-weight: bold;
-    border-color: #00aeff;
-    color: #ffffff;
+    border-color: #00aeff; /*kleur van rand knop*/
+    color: #ffffff; /*kleur tekst*/
 }
 
 button:hover {
-    transform: scale(1.15);
+    transform: scale(1.15); /*knop wordt groter als cursor erop staat*/
 }
 }
 body { 
-    background-color:black; /*achtergrond*/
+    background-color:black; /*achtergrond kleur*/
 }
 
 body {
-    color: white;
+    color: white; /*tekstkleur*/
   }
 
   h1 {
-    color:#00aeff;
+    color:#00aeff; /*tekstkleur tekst h1*/
   }
 
   .p {
-    font-family: "Copperplate", Times, sans-serif; /*lettertype, lettertype voor als de eerste niet werkt en lettertype voor als de eerste twee beide falen*/
+    font-family: "Brush Script MT", Times, sans-serif; /*lettertype, lettertype voor als de eerste niet werkt en lettertype voor als de eerste twee beide falen*/
   }
   
