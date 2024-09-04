@@ -18,6 +18,7 @@ button:hover {
     transform: scale(1.15); /*knop wordt groter als cursor erop staat*/
 }
 }
+
 body { 
     background-color:black; /*achtergrond kleur*/
 }
@@ -34,22 +35,47 @@ body {
     font-family: "Brush Script MT", Times, sans-serif; /*lettertype, lettertype voor als de eerste niet werkt en lettertype voor als de eerste twee beide falen*/
   }
   
-  /* breedte */
+  /* breedte scrollbalk*/
 ::-webkit-scrollbar {
-  width: 20px;
+  width: 10px;
 }
 
-/* volgen */
+/* achtergrond die achter de scrollbalk zit */
 ::-webkit-scrollbar-track {
   background: #000000;
 }
 
-/* hendel */
+/* hendel van de scrollbalk kleur */
 ::-webkit-scrollbar-thumb {
   background: #00aeff;
 }
 
-/* Hendel op zweven */
+/* Hendel van de scrollbar als de cursor erop zit */
 ::-webkit-scrollbar-thumb:hover {
   background: #00fff2;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #00aeff;
 }
