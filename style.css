@@ -34,3 +34,22 @@ body {
     font-family: "Brush Script MT", Times, sans-serif; /*lettertype, lettertype voor als de eerste niet werkt en lettertype voor als de eerste twee beide falen*/
   }
   
+  /* breedte */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* volgen */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* hendel */
+::-webkit-scrollbar-thumb {
+  background: #00aeff;
+}
+
+/* Hendel op zweven */
+::-webkit-scrollbar-thumb:hover {
+  background: #00fff2;
+}
