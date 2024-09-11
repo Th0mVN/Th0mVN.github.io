@@ -59,7 +59,7 @@ body {
 ul {
   list-style-type: none;
   margin: 30px;
-  padding: 0;
+  padding: 30;
   overflow: hidden;
   background-color: #000000;
 }
