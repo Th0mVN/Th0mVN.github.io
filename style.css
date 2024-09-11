@@ -58,8 +58,8 @@ body {
 
 ul {
   list-style-type: none;
-  margin: 8px;
-  padding: 30px;
+  margin: 0px;
+  padding: 0px;
   overflow: hidden;
   background-color: #000000;
 }
