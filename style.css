@@ -42,7 +42,7 @@ body {
 
 /* achtergrond die achter de scrollbalk zit */
 ::-webkit-scrollbar-track {
-  background: #000000;
+  background: #043783;
 }
 
 /* hendel van de scrollbalk kleur */
@@ -57,7 +57,7 @@ body {
 
 ul {
   list-style-type: none;
-  margin: 0;
+  margin: 8;
   padding: 0;
   overflow: hidden;
   background-color: #000000;
