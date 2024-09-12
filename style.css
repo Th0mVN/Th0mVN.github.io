@@ -15,7 +15,7 @@ button  {
 }
 
 button:hover {
-  background-color: #00aeff;
+  background-color: #00aeff; /*Kleu knop als cursor erop staat*/
     transform: scale(1.15); /*knop wordt groter als cursor erop staat*/
 }
 }
