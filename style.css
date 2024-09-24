@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Shadows+Into+Light&display=swap');
 
 body { 
- font-family:Shadows Into Light;
+ font-family:Coiny;
 button  {
     padding: 15px; /* hoe groot de knop is px staat voor pixel */
     background-color: #1f2833; /* kleur van alle knoppen */
