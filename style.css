@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Coiny&family=Shadows+Into+Light&display=swap');
-
+/*ik heb van google een font gepakt en met deze code de font geïmporteerd naar mijn site */
 body { 
  font-family:Coiny;
 button  {
@@ -24,7 +24,7 @@ button:hover {
 }
 
 body { 
-    background-color:black; /*achtergrond kleur*/
+    background-color:black; /*achtergrond kleur van pagina*/
 }
 
 body {
@@ -35,9 +35,6 @@ body {
     color:#00aeff; /*tekstkleur tekst h1*/
   }
 
-  .p {
-    font-family: "Brush Script MT", Times, sans-serif; /*lettertype, lettertype voor als de eerste niet werkt en lettertype voor als de eerste twee beide falen*/
-  }
   
   /* breedte scrollbalk*/
 ::-webkit-scrollbar {
@@ -59,7 +56,7 @@ body {
   background: #00fff2;
 }
 
-ul {
+ul { /*achtergrond van de menubalk*/
   list-style-type: none;
   margin: 0px;
   padding: 0px;
@@ -67,11 +64,11 @@ ul {
   background-color: #000000;
 }
 
-li {
+li { /*dit zorgt ervoor waar de knoppen op de menubalk staan*/
   float: left;
 }
 
-li a {
+li a { /*dit zijn de elementen voor de menubalk*/
   display: block;
   color: rgb(0, 0, 0);
   text-align: center;
@@ -81,7 +78,7 @@ li a {
 
 div {
 border:#00fff2 
-
+/*de kleur van de div tag borders, deze heb ik niet, maar deze code is er voor als ik het toevoeg.*/
 }
 
 
@@ -89,6 +86,6 @@ footer {
   text-align: center;
   padding: 3px;
   background-color: #00fff2;
-  color: white;
-}
+  color: rgb(0, 0, 0);
+} /*deze dingen zorgen erboor wat de achtergrond, tekstkleur, waar de tekst staat enw at de margin is voor de footer*/
 
