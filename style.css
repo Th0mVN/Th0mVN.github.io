@@ -83,3 +83,12 @@ div {
 border:#00fff2 
 
 }
+
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+}
+
